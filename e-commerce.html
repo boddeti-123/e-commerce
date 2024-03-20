@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Menu Design</title>
+  <link href="e-commerce.css" rel="stylesheet">
+  <style>
+
+  </style>
+</head>
+<body>
+<div id="scroll-progress"></div>
+<div id="progress-line"></div> 
+
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Website Name</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a id="home-link" class="nav-link" href="#home" onclick="scrollToSection('#home')">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="about-link" class="nav-link" href="#about" onclick="scrollToSection('#about')">Your Videos</a>
+          </li>
+          <li class="nav-item">
+            <a id="services-link" class="nav-link" href="#services" onclick="scrollToSection('#services')">Beautiful Cars</a>
+          </li>
+          <li class="nav-item">
+            <a id="portfolio-link" class="nav-link" href="#portfolio" onclick="scrollToSection('#portfolio')">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a id="contact-link" class="nav-link" href="#contact" onclick="scrollToSection('#contact')">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="container-fluid" style="height: 820px;">
+    <h1>Beautiful Places</h1>
+    <p>This is a simple demonstration of a custom-designed menu using Bootstrap.</p>
+
+
+<img src="https://w.forfun.com/fetch/b6/b6f6ab37f73695b90f5f516448b4f94b.jpeg">
+<img src="https://unsplash.com/photos/the-sun-is-setting-in-a-city-with-tall-buildings-Ee9CsMrP3o0">
+
+<img src="https://wallpapercrafter.com/sizes/2048x1152/101942-architecture-building-cityscape-skyscraper-Moscow-Russia-trees-road-path-river-reflection-bridge-ship-fence.jpg">
+<hr>
+  </div>
+
+  <div id="about" class="container" style="height: 700px;">
+    <h2>Your Videos</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit ligula sit amet turpis lobortis, sit amet blandit ipsum congue. Vivamus rutrum ex id magna tincidunt, nec tincidunt lorem convallis.</p>
+
+
+<video controls="false" autoplay loop muted> <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+
+
+<video controls="false" autoplay loop muted> <source src="https://www.w3schools.com/tags/mov_bbb.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+<hr>
+  </div>
+
+  <div id="services" class="container" style="height: 900px;">
+    <h2>Beautiful Cars</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit ligula sit amet turpis lobortis, sit amet blandit ipsum congue. Vivamus rutrum ex id magna tincidunt, nec tincidunt lorem convallis.</p>
+
+
+<img src="https://i.pinimg.com/originals/b5/f5/3d/b5f53d2751ec49075982b6f2012bd8ae.jpg">
+
+<img src="https://s2.best-wallpaper.net/wallpaper/1920x1200/1406/Acura-Nsx-concept-red-car_1920x1200.jpg">
+
+<img src="https://wallpapercave.com/wp/wp4264968.jpg">
+<hr>
+
+
+  </div>
+
+  <div id="portfolio" class="container" style="height: 1610px;">
+    <h2>Portfolio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit ligula sit amet turpis lobortis, sit amet blandit ipsum congue. Vivamus rutrum ex id magna tincidunt, nec tincidunt lorem convallis.</p>
+
+<img src="https://i.pinimg.com/736x/c4/fc/0a/c4fc0a3b019a39f177011353d29c5e5f.jpg">
+
+<img src="https://i.pinimg.com/originals/84/bf/67/84bf674c9cc285127df9e2280df577cf.jpg">
+
+<img src="https://i.pinimg.com/736x/81/b0/0f/81b00f1e0a54f833b0f0c1f820d4ace1--masquerade-wedding-masquerade-ball.jpg">
+<hr>
+
+  </div>
+
+  <div id="contact" class="container" style="height: 490px;">
+    <h2>Contact Us</h2><br>
+
+<form>
+        <div class="form-group">
+          <label for="phoneNumber">Phone Number</label>
+          <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter phone number">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 My Website. All rights reserved.</p>
+    </div>
+  </footer>
+ 
+</body>
+</html>
